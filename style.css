@@ -1,0 +1,35 @@
+img{
+height : 250;
+width : 250;
+}
+body{
+text-align: center;
+background-color:lightblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style : italic;
+}
+
+.header_div {
+background: pink;
+}
+ .header_div h4{
+  letter-spacing: 2px;
+  font-weight : bold;  
+  font-size: large;
+  color : red;
+  margin-top: 30px;
+ }
+
+#record_button {
+margin-top : 15px;
+}
+.copy-right-footer {
+position: fixed;
+bottom : 0;
+background: pink;
+text-align: center;
+font-size : 35px;
+text-shadow: 2px 2px 2px black ;
+line-height: 1.25;
+width : 100%;
+}
