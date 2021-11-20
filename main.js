@@ -30,28 +30,28 @@ document.getElementById("result_confidence").innerHTML = "Accuracy - " + (result
 document.getElementById("result_label").style.color="rgb("+random_r+","+random_g+","+random_b+")";
 document.getElementById("result_confidence").style.color="rgb("+random_r+","+random_g+","+random_b+")";
 
-if (results[0].label = "bell"){
+if (results[0].label == "bell"){
 
 document.getElementById("alien2").src = "aliens-02.gif";
 document.getElementById("alien1").src = "aliens-01.png";
 document.getElementById("alien3").src = "aliens-03.png";
 document.getElementById("alien4").src = "aliens-04.png";
 
-}else if (results[0].label = "clap"){
+}else if (results[0].label == "clap"){
 
 document.getElementById("alien3").src = "aliens-03.gif";
 document.getElementById("alien1").src = "aliens-01.png";
 document.getElementById("alien2").src = "aliens-02.png";
 document.getElementById("alien4").src = "aliens-04.png";
 
-}else if(results[0].label = "dog bark"){
+}else if(results[0].label == "dog bark"){
 
 document.getElementById("alien4").src = "aliens-04.gif";
 document.getElementById("alien1").src = "aliens-01.png";
 document.getElementById("alien3").src = "aliens-03.png";
 document.getElementById("alien2").src = "aliens-02.png";
 
-}else if (results[0].label = "Background Noise"){
+}else if (results[0].label == "Background Noise"){
 
 document.getElementById("alien1").src = "aliens-01.gif";
 document.getElementById("alien2").src = "aliens-02.png";
